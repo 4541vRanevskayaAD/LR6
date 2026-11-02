@@ -67,3 +67,13 @@ git push -u origin report
 git add.
 git commit -m "report started"
 git push -u origin report
+
+git add.
+git commit -m "report command log added"
+git push -u origin report
+
+git log --pretty=format:"%h | %ad | %an | %s" --date=short
+
+git add.
+git commit -m "all screenshots added"
+git push -u origin report

@@ -28,6 +28,8 @@
 
 13. Откат коммита [revert commit](screenshots/commit%20revert.png)
 
+14. Получение форматированной истории [formatted history](screenshots/formatted%20history.png)
+
 
 ## Лог комманд
 
@@ -76,4 +78,8 @@ git log --pretty=format:"%h | %ad | %an | %s" --date=short
 
 git add.
 git commit -m "all screenshots added"
+git push -u origin report
+
+git add.
+git commit -m "report finished"
 git push -u origin report

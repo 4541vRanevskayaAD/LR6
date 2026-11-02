@@ -34,52 +34,94 @@
 ## Лог комманд
 
 git config --global user.name "4541vRanevskayaAD"
+
 git config --global user.email "donniedarko2018@mail.ru"
+
 git clone https://github.com/4541vRanevskayaAD/LR6.git
+
 cd LR6
+
 
 git pull origin master
 
+
 git checkout -b feature
+
 git add.
+
 git commit -m "changed new_file.txt"
+
 git push -u origin feature
 
+
 git log --oneline master
+
 git log --oneline feature
+
 git log -5 HEAD
+
 git show HEAD
+
 git checkout master
+
 git log -5 HEAD
+
 git show HEAD
+
 
 git merge feature
+
 git add.
+
 git commit -m "merge feature"
+
 git branch -d feature
+
 git push origin --delete feature
 
-git revert HEAD
+
+git revert 27c09edb4a0f070ef3253a6d37db532c517cfff2
+
 
 git checkout -b report
+
 git add.
+
 git commit -m "screenshots folder created"
+
 git push -u origin report
 
+
+
 git add.
+
 git commit -m "report started"
+
 git push -u origin report
 
+
+
 git add.
+
 git commit -m "report command log added"
+
 git push -u origin report
+
+
 
 git log --pretty=format:"%h | %ad | %an | %s" --date=short
 
-git add.
-git commit -m "all screenshots added"
-git push -u origin report
 
 git add.
+
+git commit -m "all screenshots added"
+
+git push -u origin report
+
+
+
+git add.
+
 git commit -m "report finished"
+
 git push -u origin report

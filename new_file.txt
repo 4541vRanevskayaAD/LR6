@@ -1,2 +1,2 @@
-Adding a new file to personal repo.
+Adding a new file to personal repository.
 Changed in feature branch.

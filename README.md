@@ -27,3 +27,43 @@
 12. Коммитим удаление файла [commit file deletion](screenshots/extra%20file%20deletion%20committed.png)
 
 13. Откат коммита [revert commit](screenshots/commit%20revert.png)
+
+
+## Лог комманд
+
+git config --global user.name "4541vRanevskayaAD"
+git config --global user.email "donniedarko2018@mail.ru"
+git clone https://github.com/4541vRanevskayaAD/LR6.git
+cd LR6
+
+git pull origin master
+
+git checkout -b feature
+git add.
+git commit -m "changed new_file.txt"
+git push -u origin feature
+
+git log --oneline master
+git log --oneline feature
+git log -5 HEAD
+git show HEAD
+git checkout master
+git log -5 HEAD
+git show HEAD
+
+git merge feature
+git add.
+git commit -m "merge feature"
+git branch -d feature
+git push origin --delete feature
+
+git revert HEAD
+
+git checkout -b report
+git add.
+git commit -m "screenshots folder created"
+git push -u origin report
+
+git add.
+git commit -m "report started"
+git push -u origin report
